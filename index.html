@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>5th Winter Game Jam</title>
+
+		<link rel="stylesheet" href="reveal/reset.css">
+		<link rel="stylesheet" href="reveal/reveal.css">
+		<link rel="stylesheet" href="reveal/white.css">
+	</head>
+	<body>
+		<div style="position: absolute; width: 100%; height: 100%; background-position: 50% 50% ; background-image: url(images/pattern.png); background-repeat: repeat; z-index: 1"></div>
+		<div class="reveal">
+			<div class="slides">
+				<section data-background-video="images/gamejamvideo.mp4" data-background-video-loop data-background-video-muted data-background-opacity="0.5">
+					<!--img src="images/gamejam_logo.jpg" width="320" class="plain"-->
+					<h1>5th Klagenfurt Winter Game Jam</h1>
+					<i>Dec 17-19, 2021</i>
+					<p>Register on <br/><a href="https://itch.io/jam/5th-winter-game-jam">https://itch.io/jam/5th-winter-game-jam</a></p>
+				</section>
+			</div>
+		</div>
+
+		<script src="reveal/reveal.js"></script>
+    <script src="reveal/markdown.js"></script>
+
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+        plugins: [ RevealMarkdown ],
+        autoSlide: 5000,
+        loop: true,
+        controls: false,
+        progress: false,
+        autoSlideStoppable: false,
+        center: true,
+        transition: 'fade' // none/fade/slide/convex/concave/zoom
+      });
+		</script>
+	</body>
+</html>
